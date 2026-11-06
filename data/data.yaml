@@ -1,4 +1,8 @@
-train: /root/autodl-tmp/ultralytics-main/data/NEU-DET/train
-val: /root/autodl-tmp/ultralytics-main/data/NEU-DET/test
-nc: 6 #标签数量
-names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']#标签名称
+# NEU-DET 钢材表面缺陷数据集配置（相对项目根目录）
+path: data/NEU-DET
+train: train/images
+val: test/images
+
+# 类别数量与名称
+nc: 6
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
